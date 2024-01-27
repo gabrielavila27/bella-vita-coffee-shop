@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+.sectionSobreCafeteria{
+    border-top: solid 1px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #E3CFBA;
+    align-items: center;
+    height: 43.75rem;
+}
+
+.divTxtSobre{
+    width: 80%;
+    margin: auto;
+    color: #4A331C;
+    
+}
+
+.image{
+    width: 28.25rem;
+    height: 28.25rem;
+    margin: auto;
+}
+
+.tituloSobre{
+    font: 700 3rem 'Montserrat', sans-serif;
+    margin-bottom: 4rem;
+}   
+
+.txtSobre{
+    font: 500 1.5rem 'Montserrat', sans-serif;
+    line-height: 2rem;
+}
+
+@media(max-width: 1024px){
+    .sectionSobreCafeteria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 60rem;
+        width: 100vw;;
+        padding: 3rem 0;
+    }
+
+    .image{
+        grid-row: 2;
+
+    }
+}
+
+@media(max-width:480px){
+    .sectionSobreCafeteria{
+        height: 70rem;
+        
+    }
+  }

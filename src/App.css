@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+.main{
+  height: 100vh;
+}
+
+
+@media(max-width: 1900px){
+  html{
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 1280px){
+  html{
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 480px){
+  html{
+    font-size: 11px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+.sectionMenu{
+    height: 46.75rem;
+    width: 100%;
+    background-color: #4A331C;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    align-items: center;
+    
+}
+
+.divTxtMenu{
+    grid-column: 2;
+    grid-row: 1;
+    width: 80%;
+    margin: auto;
+}
+.tituloMenu{
+    color: #E3CFBA;
+    font: 700 3rem 'Montserrat', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.txtMenu{
+    font: 500 1.5rem 'Montserrat', sans-serif;
+    color: #E3CFBA;
+    line-height: 2rem;
+}
+
+.swiperComponent{
+    width: 33rem;
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+}
+
+
+
+@media(max-width: 1024px){
+    .sectionMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 3rem;
+        height: 85rem;
+        padding: 5rem 0;
+    }
+}
+

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+.header{
+    background-color:#160d04;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    height: 6rem;
+}
+
+#menu{
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    font: 500 1.1rem 'Montserrat', sans-serif;
+}
+
+.listItem a{
+    color: #B09D89;
+    cursor: pointer;
+}
+
+.listItem a:hover{
+    color: #E3CFBA;
+}
+
+.logo{
+    width: 6rem;
+    object-fit: cover;
+}
+
+.menuBar{
+    color: #B09D89;
+    background-color: #160d04;
+    font-size: 1.3rem;
+    display: none;
+}
+
+.closeBar{
+    display: none;
+}
+
+li button {
+    background-color: #160d04;
+    border: none;
+}
+
+@media(max-width: 1280px){
+   .header{
+        height: 88px;
+    }
+  }
+
+  .logo{
+    width: 80px;
+  }
+
+@media(max-width: 900px) {
+    .menuBar{
+        display: block;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
+    .menuBar:active{
+        color: #E3CFBA;
+    }
+
+    .listItem{
+        display: none;
+    }
+
+    #menu.sideMenu{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #160d04;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #menu.sideMenu .closeBar{
+        display: block;
+        position: absolute;
+        color: #B09D89;
+        font-size: 3rem;
+        right: 3%;
+        top: 2.5%;
+        cursor: pointer;
+    }
+
+    
+    #menu.sideMenu .closeBar:active{
+        color: #E3CFBA;
+        cursor: pointer;
+    }
+
+
+    #menu.SideMenu .listItem button{
+        font-size: 5rem;
+        color: #B09D89;
+        display: block;
+    }
+
+    #menu.sideMenu .listItem{
+        display: block;
+        margin-left: 5%;
+        position: relative;
+        top: -2%;
+    }
+
+    #menu.sideMenu .listItem a{
+        display: block;
+        color: #B09D89;
+        font-size: 2.7rem;
+    }
+
+    #menu.sideMenu .listItem a:active{
+        color: #E3CFBA;
+    }
+
+}
+
+@media(max-width: 480px){
+    .menuBar{
+        font-size:4rem;
+    }
+
+    #menu.sideMenu .closeBar{
+        display: block;
+        position: absolute;
+        color: #B09D89;
+        font-size: 3.5rem;
+        left:88%;
+        top: 2.8%;
+    }
+  }
