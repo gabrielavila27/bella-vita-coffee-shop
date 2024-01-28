@@ -67,6 +67,7 @@ li button {
         display: block;
         font-size: 3.5rem;
         cursor: pointer;
+        position: static
     }
 
     .menuBar:active{
