@@ -10,12 +10,12 @@ function Header(){
 
     const showSideBar = () => {
         setIsActive((active) => !active)
-        console.log(isActive)
+        
     }
 
     const closeMobile = () => {
-        if (window.innerWidth <= 900) {setIsActive(!isActive)
-        console.log(isActive)}
+        if (window.innerWidth <= 900) {
+            setIsActive(!isActive)}
     }
 
     return(
@@ -25,7 +25,7 @@ function Header(){
 
             <nav>
                 <ul id={styles.menu} className={isActive ? styles.sideMenu : ''} >
-                    <li>{isActive ?  <button onClick={closeMobile}> <FaWindowClose className={styles.closeBar}/> </button> : <button onClick={showSideBar}> <HiMenu className={styles.menuBar}/> </button>}</li>
+                    <li >{isActive ?  <button onClick={closeMobile}> <FaWindowClose className={styles.closeBar}/> </button> : <button onClick={showSideBar}> <HiMenu className={styles.menuBar}/> </button>}</li>
                     <li className={styles.listItem} onClick={closeMobile}><a href='#sobre'>Sobre</a></li>
                     <li className={styles.listItem} onClick={closeMobile}><a href='#work'>Work</a></li>
                     <li className={styles.listItem} onClick={closeMobile}><a href='#menu'>Menu</a></li>

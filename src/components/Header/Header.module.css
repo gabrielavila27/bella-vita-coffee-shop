@@ -67,7 +67,6 @@ li button {
         font-size: 3.5rem;
         cursor: pointer;
         position: relative;
-        right: 3%;
     }
 
     .menuBar:active{
@@ -108,12 +107,6 @@ li button {
         cursor: pointer;
     }
 
-
-    #menu.SideMenu .listItem button{
-        font-size: 5rem;
-        color: #B09D89;
-        display: block;
-    }
 
     #menu.sideMenu .listItem{
         display: block;
