@@ -63,10 +63,11 @@ li button {
 
 @media(max-width: 900px) {
     .menuBar{
-        display: block;
+        display:block;
         font-size: 3.5rem;
         cursor: pointer;
-        position: static;
+        position: relative;
+        right: 3%;
     }
 
     .menuBar:active{
@@ -75,6 +76,7 @@ li button {
 
     .listItem{
         display: none;
+        position: absolute;
     }
 
     #menu.sideMenu{
