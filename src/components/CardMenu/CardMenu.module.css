@@ -44,6 +44,7 @@
     margin: 0 0.5rem;
 }
 
+
 @media(max-width: 468px){
     .cardItem{
         height: 31em;

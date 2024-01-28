@@ -45,6 +45,12 @@ font-family: 'League Spartan', sans-serif;*/
     color: #170E04;
 }
 
+@media(max-width: 1900px){
+    .divImageWork{
+        width: 90%;
+        height: 70%;
+    }
+}
 @media(max-width: 1024px){
     .sectionWork{
         grid-template-columns: 1fr;
