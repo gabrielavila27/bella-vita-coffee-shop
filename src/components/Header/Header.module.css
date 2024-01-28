@@ -63,7 +63,7 @@ li button {
 }
 
 @media(max-width: 900px) {
-    #Menu{
+    #menu{
         display: block;
     }
     
