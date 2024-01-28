@@ -6,8 +6,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2%;
     height: 6rem;
+    padding-right: 3%;
+    padding-left: 2%;
 }
 
 #menu{
@@ -27,8 +28,10 @@
 }
 
 .logo{
-    width: 6rem;
-    object-fit: cover;
+    width: 5.5rem;
+    object-fit: contain;
+
+
 }
 
 .menuBar{
@@ -51,17 +54,19 @@ li button {
    .header{
         height: 88px;
     }
-  }
 
   .logo{
     width: 80px;
+    height: 80px;
   }
+}
 
 @media(max-width: 900px) {
     .menuBar{
         display: block;
-        font-size: 3rem;
+        font-size: 3.5rem;
         cursor: pointer;
+        position: fixed;
     }
 
     .menuBar:active{
@@ -90,7 +95,7 @@ li button {
         position: absolute;
         color: #B09D89;
         font-size: 3rem;
-        right: 3%;
+        right: 4%;
         top: 2.5%;
         cursor: pointer;
     }

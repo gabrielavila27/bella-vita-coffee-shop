@@ -2,7 +2,7 @@ import styles from './Header.module.css'
 import { useState} from 'react'
 import { HiMenu } from "react-icons/hi";
 import { FaWindowClose } from "react-icons/fa";
-import logo from '../../assets/images/bellavita_logo.png'
+import logo from '../../assets/images/bellavita_500x500.png'
 
 function Header(){
 
