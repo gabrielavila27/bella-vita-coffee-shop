@@ -63,6 +63,10 @@ li button {
 }
 
 @media(max-width: 900px) {
+    #Menu{
+        display: block;
+    }
+    
     .menuBar{
         display: block;
         font-size: 3.5rem;
