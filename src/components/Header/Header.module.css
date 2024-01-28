@@ -9,6 +9,7 @@
     height: 6rem;
     padding-right: 3%;
     padding-left: 2%;
+    width: 100vw;
 }
 
 #menu{
@@ -63,10 +64,9 @@ li button {
 
 @media(max-width: 900px) {
     .menuBar{
-        display:block;
+        display: block;
         font-size: 3.5rem;
         cursor: pointer;
-        position: relative;
     }
 
     .menuBar:active{
