@@ -1,12 +1,12 @@
 import styles from './CardMenu.module.css'
 
-function CardMenu({image, title, text}){
+function CardMenu({image, title, text, alt}){
     return(
         <div className={styles.cardItem}>
 
             <div className={styles.divImage}>
 
-                <img className={styles.image} src={image}/>
+                <img className={styles.image} src={image} alt={alt}/>
 
             </div>
 

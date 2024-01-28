@@ -2,6 +2,7 @@ import styles from './Header.module.css'
 import { useState} from 'react'
 import { HiMenu } from "react-icons/hi";
 import { FaWindowClose } from "react-icons/fa";
+import logo from '../../assets/images/bellavita_logo.png'
 
 function Header(){
 
@@ -20,7 +21,7 @@ function Header(){
     return(
         <header className={styles.header} id='header'>
 
-            <img src='../src/assets/images/bellavita_logo.png' className={styles.logo}></img>
+            <img src={logo} className={styles.logo}></img>
 
             <nav>
                 <ul id={styles.menu} className={isActive ? styles.sideMenu : ''} >

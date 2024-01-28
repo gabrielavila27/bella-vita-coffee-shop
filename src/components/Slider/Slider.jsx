@@ -7,15 +7,16 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
 import 'swiper/css/scrollbar'
-
-
+import imageOne from '../../assets/images/pexels-afta-putta-gunawan-683039.jpg'
+import imageTwo from '../../assets/images/pexels-viktoria-alipatova-2074130.jpg'
+import imageThree from '../../assets/images/pexels-nader-ayman-19286173.jpg'
 
 function Slider(){
 
     const data = [
-        {id: '1', image: 'src/assets/images/pexels-afta-putta-gunawan-683039.jpg'},
-        {id: '2', image: 'src/assets/images/pexels-viktoria-alipatova-2074130.jpg'},
-        {id: '3', image: 'src/assets/images/pexels-nader-ayman-19286173.jpg'}
+        {id: '1', image: imageOne},
+        {id: '2', image: imageTwo},
+        {id: '3', image: imageThree}
     ]
 
 

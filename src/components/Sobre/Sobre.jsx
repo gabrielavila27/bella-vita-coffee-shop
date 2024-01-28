@@ -1,9 +1,10 @@
 import styles from './Sobre.module.css'
+import logo from '../../assets/images/bellavita_500x500.png'
 
 function Sobre(){
     return(
         <section className={styles.sectionSobreCafeteria} id='sobre'>
-            <img src="src\assets\images\bellavita_500x500.png" className={styles.image}/>
+                <img src={logo} className={styles.image}/>
             
             
             <div className={styles.divTxtSobre}>

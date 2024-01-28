@@ -1,4 +1,5 @@
 import styles from './Work.module.css'
+import workImage from '../../assets/images/pexels-helena-lopes-887723.jpg'
 
 function Work(){
     return(
@@ -13,7 +14,7 @@ function Work(){
                  
             </div>
             <div className={styles.divImageWork}>
-                <img src='src/assets/images/pexels-helena-lopes-887723.jpg' className={styles.imageWork}/>
+                <img src= {workImage} className={styles.imageWork}/>
             </div>
         </section>
     )
